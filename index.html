@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <!-- Popper Js -->
+    <script src="popper/popper.js" defer></script>
+    <!-- Bootstrap Js -->
+    <script src="bootstrap/js/bootstrap.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg"
+                alt="Bootstrap Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top"
+              />
+              Site Logo
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testmonial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+              </ul>
+              <div class="d-flex">
+                <button class="btn btn-primary" type="button">
+                  Components
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Of Navbar -->
+      </header>
+
+      <!-- Hero Carousel Section Start -->
+      <section>
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="image/pic4.jpg"
+                class="d-block w-100"
+                alt="travel image one"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image/pic2.jpg"
+                class="d-block w-100"
+                alt="travel image two"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image/pic3.jpg"
+                class="d-block w-100"
+                alt="travel image three"
+                height="600"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       
+      </section>
+      <!-- End Of Hero Carousel Section -->
+
+      <!-- Start Of About Us -->
+      <section style="background-color: #f1fafb;">
+        <div class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h2 class="h2">About Us</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Laborum sunt, unde aperiam aliquid quia repudiandae, 
+                  ex harum quis amet delectus maxime, 
+                  tempora possimus aut laboriosam magni corrupti labore. 
+                  Doloremque, sit?
+                </p>
+                <a class="text-danger">Read More</a>
+              </div>
+              <div class="col-md-4">
+                <div class="d-flex flex-column gap-3">
+                  <!-- Card 1 -->
+                  <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p>This is some text within a card body.</p>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p>This is some text within a card body.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="d-flex flex-column gap-3">
+                  <!-- Card 3 -->
+                  <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p>This is some text within a card body.</p>
+                    </div>
+                  </div>
+                  <!-- Card 4 -->
+                  <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p>This is some text within a card body.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Of About Us -->
+     
+      <!-- Start Of Expertise Area -->
+      <section>
+        <div class="py-5">
+          <div class="container">
+            <h3 class="mb-4">Lorem ipsum dolor sit.</h3>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card border-0 rounded-0 w-100">
+                  <img src="image/pic8.jpg" class="card-img-top" alt="services image 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 rounded-0 w-100">
+                  <img src="image/pic7.jpg" class="card-img-top" alt="services image 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card border-0 rounded-0 w-100">
+                  <img src="image/pic6.jpg" class="card-img-top" alt="services image 3">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Of Expertise Area -->
+      
+
+      <!-- Start Of Products Area -->
+      <section style="background-color: #f1fafb;">
+        <div class="py-5">
+          <div class="container">
+            <h3 class="mb-4">Lorem ipsum dolor sit.</h3>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card border-0 rounded-0 w-100 bg-transparent">
+                  <img src="image/pic5.jpg" class="card-img-top" alt="services image 1">
+                  <div class="card-body text-start">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card border-0 rounded-0 w-100 bg-transparent">
+                  <img src="image/pic4.jpg" class="card-img-top" alt="services image 2">
+                  <div class="card-body text-start">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card border-0 rounded-0 w-100 bg-transparent">
+                  <img src="image/pic3.jpg" class="card-img-top" alt="services image 3">
+                  <div class="card-body text-start">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card border-0 rounded-0 w-100 bg-transparent">
+                  <img src="image/pic1.jpg" class="card-img-top" alt="services image 3">
+                  <div class="card-body text-start">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="text-sm-start">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Of Products Area -->
+    </main>
+    <footer>
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Travel</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Tour</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Hiking</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </footer>
+  </body>
+</html>
